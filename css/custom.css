@@ -1,0 +1,29 @@
+#about {
+    background: white;
+}
+.resume-height {
+    min-height: 0px;
+}
+.skill-image {
+    max-height: 80px;
+}
+.skill-item .web-dev {
+    color: #ffc107;
+}
+.skill-cover {
+    background-color: #f0f0f0;
+}
+#awards {
+    background: white;
+}
+/*
+@media (min-width: 768px) {
+    .resume-height {
+        min-height: 520px;
+    }
+}
+@media (min-width: 1025px) {
+    .resume-height {
+        min-height: 350px;
+    }*/
+}
