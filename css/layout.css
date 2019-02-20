@@ -10,7 +10,7 @@
    b. Header Styles
    c. About Section
    d. Resume Section
-   e. Portfolio Section
+   e. education Section
    f. Call To Action Section
    g. Testimonials Section
    h. Contact Section
@@ -501,15 +501,15 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. education Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#education {
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
 }
-#portfolio h1 {
+#education h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
@@ -518,9 +518,9 @@ ul#nav li.current a { color: #F06000; }
    color: #95A3A3;
 }
 
-/* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
-.portfolio-item .item-wrap {
+/* education Content */
+#education-wrapper .columns { margin-bottom: 36px; }
+.education-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -531,13 +531,13 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
+.education-item .item-wrap a {
    display: block;
    cursor: pointer;
 }
 
 /* overlay */
-.portfolio-item .item-wrap .overlay {
+.education-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
@@ -555,7 +555,7 @@ ul#nav li.current a { color: #F06000; }
 
    background: url(../images/overlay-bg.png) repeat;
 }
-.portfolio-item .item-wrap .link-icon {
+.education-item .item-wrap .link-icon {
    display: block;
    color: #fff;
    height: 30px;
@@ -579,27 +579,27 @@ ul#nav li.current a { color: #F06000; }
    margin-left: -15px;
    margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
+.education-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
-.portfolio-item .portfolio-item-meta h5 {
+.education-item .education-item-meta { padding: 18px }
+.education-item .education-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
 }
-.portfolio-item .portfolio-item-meta p {
+.education-item .education-item-meta p {
    font: 12px/18px 'opensans-light', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
 
 /* on hover */
-.portfolio-item:hover .overlay {
+.education-item:hover .overlay {
 	opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
-.portfolio-item:hover .link-icon {
+.education-item:hover .link-icon {
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
